@@ -1,6 +1,6 @@
-# Agentic-Job-Search
+# Agentic Job Matching & Recommendation System
 
-[![CI](https://github.com/pashaeimehran/agentic-ai-job-matcher/actions/workflows/ci.yml/badge.svg)](https://github.com/pashaeimehran/agentic-ai-job-matcher/actions/workflows/ci.yml)
+[![CI](https://github.com/abhisheksouw21/Agentic-Job-Search/actions/workflows/ci.yml/badge.svg)](https://github.com/abhisheksouw21/Agentic-Job-Search/actions/workflows/ci.yml)
 
 This project helps job seekers understand which job postings in Germany best match their CV.
 It compares job requirements with the candidate's experience, ranks the results, and explains
