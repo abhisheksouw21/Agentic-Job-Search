@@ -124,8 +124,8 @@ shows orchestration and grounding, not language quality.
 Locally with Docker (fixture mode, no API key):
 
 ```bash
-git clone https://github.com/pashaeimehran/agentic-ai-job-matcher.git
-cd agentic-ai-job-matcher
+git clone https://github.com/abhisheksouw21/Agentic-Job-Search.git
+cd Agentic-Job-Search
 docker compose up -d --build --wait        # API + PostgreSQL/pgvector, 1-2 minutes on first build
 
 curl http://127.0.0.1:8000/ready
