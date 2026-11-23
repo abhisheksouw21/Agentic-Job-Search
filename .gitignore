@@ -1,0 +1,25 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and tooling
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+pytest-cache-files-*
+.coverage
+htmlcov/
+
+# Private or downloaded data (real CVs, saved jobs, raw job-board responses)
+data/private/
+data/ba_jobs.json
+
+# Paid live evaluation outputs: reviewed before any numbers are recorded in the repository
+evaluation/results/retrieval_live*.json
+evaluation/results/matching_ragas_live*.json
+evaluation/results/matching_ragas_final.json
+evaluation/results/tool_selection_live*.json
+evaluation/results/tool_selection_replay_local.json

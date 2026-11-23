@@ -1,0 +1,13 @@
+# Allow-list build context: only what the Dockerfile copies is sent to the builder, so secrets
+# (.env), private data, virtual environments and local files can never enter an image layer.
+*
+!requirements.txt
+!requirements-retrieval.txt
+!constraints.txt
+!src/
+!scripts/serve_api.py
+!scripts/serve_mcp.py
+!scripts/cv.py
+!data/fixtures/
+**/__pycache__
+**/*.pyc
